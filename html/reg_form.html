@@ -1,0 +1,27 @@
+<div class="col-md-6 col-md-offset-3">
+    Kérlek, regisztrációhoz add meg az adataidat:<br>
+    <form role="form" action="" method="POST" enctype="multipart/form-data" name="ephf_regform">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input name="reg[email]" type="email" class="form-control" id="email" placeholder="E-mail" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Név:</label>
+            <input name="reg[name]" type="text" class="form-control" id="name" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+            <label for="tralala">Kedvenc tralala:</label>
+            <input name="reg[tralala]" type="text" class="form-control" id="name" placeholder="Csappantyús rotátorrepesz" required>
+        </div>
+        <div class="form-group">
+            <label for="pwd">Jelszó:</label>
+            <input name="reg[password]" type="password" class="form-control" id="pwd" placeholder="Jelszó" required>
+        </div>
+        <div class="form-group">
+            <label for="pwd2">Jelszó mégegyszer:</label>
+            <input name="reg[password2]" type="password" class="form-control" id="pwd2" placeholder="Jelszó mégegyszer" required>
+        </div>
+        <div class="text-center">
+            <input type="submit" name="reg[submit]" value="Regisztrálok" class="btn btn-default"></div>
+    </form>
+</div>
